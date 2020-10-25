@@ -64,6 +64,7 @@ h2 {
   #chicken, #beef, #sushi {
       font-weight: bold;
   }
+
   /* END HEADER */
 
   /* HOME PAGE */
@@ -73,13 +74,20 @@ h2 {
   }
   
   /* END HOME PAGE */
-  
+
+  /** Very Large **/
+  @media (min-width: 1290px) {
+    #header-nav .navbar-header .navbar-brand h1 {
+        margin-left: -80px;
+      }
+  }
+
   /* Large Devices */
   @media (min-width: 1201px){
     #main-content {
         margin-left: auto;
         margin-right: auto;
-        width: 1320px;
+        width: 1300px;
     }
     
   }
